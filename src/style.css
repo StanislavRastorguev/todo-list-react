@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.ListWrapper {
+  width: 500px;
+  margin: auto;
+}
+
+.List {
+  padding: 0;
+}
+
+.Item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Item > span {
+  word-break: break-word;
+}
+
+.Item > div {
+  min-width: 61px;
+}
